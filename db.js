@@ -63,7 +63,7 @@ db.get("SELECT COUNT(*) AS count FROM peliculas", (err, row) => {
       {
         titulo: "Titanic",
         descripcion: "Una historia de amor trágica a bordo del Titanic.",
-        imagen: "https://static.wikia.nocookie.net/cine/images/2/22/Titanic_poster.jpg/revision/latest?cb=20121020140546",
+        imagen: "https://m.media-amazon.com/images/I/811lT7khIrL.jpg",
         trailer: "https://www.youtube.com/watch?v=kVrqfYjkTdQ"
       },
       {
@@ -75,7 +75,7 @@ db.get("SELECT COUNT(*) AS count FROM peliculas", (err, row) => {
       {
         titulo: "Spider-Man: No Way Home",
         descripcion: "El multiverso se desata cuando Peter Parker pide ayuda al Doctor Strange.",
-        imagen: "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/df/Spider-Man_No_Way_Home_Poster.png/revision/latest?cb=20211201150655&path-prefix=es",
+        imagen: "https://m.media-amazon.com/images/I/81y0foYjoFL.jpg",
         trailer: "https://www.youtube.com/watch?v=JfVOs4VSpmA"
       }
     ];
