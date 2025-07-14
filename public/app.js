@@ -37,8 +37,12 @@ document.getElementById("form-pelicula").addEventListener("submit", async e => {
 });
 
 async function eliminarPelicula(id) {
+  const confirmar = confirm("¿Estás seguro que deseas eliminar esta película?");
+  if (!confirmar) return;
+
   await fetch(`${API}/${id}`, { method: "DELETE" });
   cargarPeliculas();
 }
+
 
 cargarPeliculas();
