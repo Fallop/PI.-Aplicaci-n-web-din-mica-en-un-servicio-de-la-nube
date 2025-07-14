@@ -85,3 +85,12 @@ form button:hover {
   border-radius: 5px;
   cursor: pointer;
 }
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #555;
+  color: #aaa;
+  font-size: 14px;
+}
