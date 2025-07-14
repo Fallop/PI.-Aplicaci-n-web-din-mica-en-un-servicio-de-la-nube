@@ -40,8 +40,9 @@ form button {
   background-color: #00a8ff;
   color: white;
   cursor: pointer;
-  grid-column: span 2;
+  grid-column: 1 / -1;
 }
+
 
 form button:hover {
   background-color: #0097e6;

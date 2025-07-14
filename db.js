@@ -21,7 +21,7 @@ db.get("SELECT COUNT(*) AS count FROM peliculas", (err, row) => {
       {
         titulo: "Interstellar",
         descripcion: "Un grupo de astronautas viaja a través de un agujero de gusano para salvar a la humanidad.",
-        imagen: "https://m.media-amazon.com/images/I/81BpI7vN8GL._AC_SL1500_.jpg",
+        imagen: "https://m.media-amazon.com/images/S/pv-target-images/79194981293eabf6620ece96eb5a9c1fffa04d3374ae12986e0748800b37b9cf.jpg",
         trailer: "https://www.youtube.com/watch?v=zSWdZVtXT7E"
       },
       {
@@ -39,7 +39,7 @@ db.get("SELECT COUNT(*) AS count FROM peliculas", (err, row) => {
       {
         titulo: "El Padrino",
         descripcion: "La historia del ascenso de la familia criminal Corleone en Estados Unidos.",
-        imagen: "https://m.media-amazon.com/images/I/51r-OnM+O8L._AC_.jpg",
+        imagen: "https://m.media-amazon.com/images/M/MV5BZmNiNzM4MTctODI5YS00MzczLWE2MzktNzY4YmNjYjA5YmY1XkEyXkFqcGc@._V1_.jpg",
         trailer: "https://www.youtube.com/watch?v=UaVTIH8mujA"
       },
       {
@@ -51,31 +51,31 @@ db.get("SELECT COUNT(*) AS count FROM peliculas", (err, row) => {
       {
         titulo: "Coco",
         descripcion: "Un niño mexicano viaja al mundo de los muertos para descubrir su herencia musical.",
-        imagen: "https://m.media-amazon.com/images/I/91tWfF7W+dL._AC_SL1500_.jpg",
+        imagen: "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg?region=0,0,540,810",
         trailer: "https://www.youtube.com/watch?v=Ga6RYejo6Hk"
       },
       {
         titulo: "Toy Story",
         descripcion: "Los juguetes de Andy cobran vida cuando nadie los ve.",
-        imagen: "https://m.media-amazon.com/images/I/51G8ZQwXAbL._AC_.jpg",
-        trailer: "https://www.youtube.com/watch?v=KYz2wyBy3kc"
+        imagen: "https://m.media-amazon.com/images/M/MV5BZTA3OWVjOWItNjE1NS00NzZiLWE1MjgtZDZhMWI1ZTlkNzYwXkEyXkFqcGc@._V1_.jpg",
+        trailer: "https://www.youtube.com/watch?v=v-PjgYDrg70"
       },
       {
         titulo: "Titanic",
         descripcion: "Una historia de amor trágica a bordo del Titanic.",
-        imagen: "https://m.media-amazon.com/images/I/81aA7hEEykL._AC_SL1500_.jpg",
+        imagen: "https://static.wikia.nocookie.net/cine/images/2/22/Titanic_poster.jpg/revision/latest?cb=20121020140546",
         trailer: "https://www.youtube.com/watch?v=kVrqfYjkTdQ"
       },
       {
         titulo: "El Señor de los Anillos: La Comunidad del Anillo",
         descripcion: "Un hobbit emprende una misión para destruir un anillo maldito.",
-        imagen: "https://m.media-amazon.com/images/I/81ebpXQ9Z2L._AC_SL1500_.jpg",
+        imagen: "https://pics.filmaffinity.com/El_seanor_de_los_anillos_La_comunidad_del_anillo-952398002-large.jpg",
         trailer: "https://www.youtube.com/watch?v=V75dMMIW2B4"
       },
       {
         titulo: "Spider-Man: No Way Home",
         descripcion: "El multiverso se desata cuando Peter Parker pide ayuda al Doctor Strange.",
-        imagen: "https://m.media-amazon.com/images/I/71z0mnp1cmL._AC_SL1111_.jpg",
+        imagen: "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/df/Spider-Man_No_Way_Home_Poster.png/revision/latest?cb=20211201150655&path-prefix=es",
         trailer: "https://www.youtube.com/watch?v=JfVOs4VSpmA"
       }
     ];
